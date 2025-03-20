@@ -1,0 +1,126 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 450;
+}
+
+#header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 90px;
+    padding-left: 15px;
+    padding-right: 15px;    
+}
+
+#logo{
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+
+#containerHeader1{
+    display: flex;
+    justify-content: space-between;
+    /* width: 700px; */
+    align-items: center;
+}
+
+#inp1{
+    height: 25px;
+}
+
+#inp1{
+    border: none;
+    background-color: rgb(245, 245, 245);
+    width: 200px;
+}
+
+#barraPesquisa{
+    /* justify-content: space-between; */
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+    background-color: rgb(245, 245, 245);
+    padding: 10px;
+    width: 320px;
+
+}
+
+#lupinhaPesquisa{
+    margin-right: 5px;
+}
+
+#navigation{
+    margin-left: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 380px;
+}
+
+#containerHeader2{
+    display: flex;
+    align-items: center;
+}
+
+#carrinho{
+    display: flex;
+    align-items: center;
+    height: 40px;
+    width: 100px;
+    justify-content: space-evenly;
+    border: solid black 1px;
+    border-radius: 70px;
+    margin-left: 10px;   
+}
+
+#cart{
+    height: 20px;
+
+}
+
+#divnumero0{
+    display: flex;
+    justify-content: center;
+    background-color:rgb(245, 245, 245);
+    border-radius: 50%;
+    align-items: center;
+    font-size: small;
+    width: 25px;
+    height: 25px
+}
+
+#section1{
+    background-image: url(img/section1.png);
+}
+
+.link {
+    height: 25px;
+    text-decoration: none;
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.setaEspacamento {
+    display: flex;
+    align-items: center; /* Alinha a seta verticalmente com os textos */
+    margin: 0;
+    padding: 0;
+}
+
+#imgSeta {
+    margin-left: 5px;
+}
+
+
+.link:hover{
+    text-decoration: underline;
+    text-underline-offset: 6px;
+}
+
+#logo:hover{
+    cursor: pointer;
+}
